@@ -55,6 +55,5 @@ const styles = {
     flexDirection: "column",
     display: "flex",
     alignItems: "center",
-    // border: "1px solid blue",
   },
 };

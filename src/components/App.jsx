@@ -6,10 +6,7 @@ import Footer from "./Footer.jsx";
 const App = () => {
   return (
     <div style={styles.app}>
-      {/* <Header /> */}
-      {/* <Bio /> */}
       <OpenAi />
-      {/* <Work /> */}
       <Footer />
     </div>
   );
@@ -24,9 +21,5 @@ const styles = {
     margin: "0px",
     color: colorPalette.text1,
     backgroundColor: colorPalette.work,
-    // display: "flex",
-    // flexDirection: "column",
-    // alignItems: "center",
-    // justifyContent: "center",
   },
 };
