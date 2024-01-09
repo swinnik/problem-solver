@@ -80,7 +80,19 @@ const OpenAIChatComponent = () => {
         {isLoading ? (
           <>
             <h2>Response:</h2>
-            <div>Thinking of a solution...</div>
+            <div
+              style={{
+                marginBottom: "20px",
+                fontSize: "1em",
+                lineHeight: "1.5em",
+                backgroundColor: "white",
+                padding: "1em",
+                borderRadius: "1em",
+                boxShadow: "0px 0px 8px purple",
+              }}
+            >
+              Thinking of a solution...
+            </div>
           </>
         ) : (
           responseText && (
