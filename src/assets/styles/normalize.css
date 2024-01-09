@@ -1,0 +1,123 @@
+/* Reset some default browser styles */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Set line heights and font sizes to work consistently across browsers */
+body {
+  line-height: 1;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Correct block-level display not defined in some browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* Ensure that block elements take up full width by default */
+html,
+body {
+  width: 100%;
+}
+
+/* Set box-sizing to border-box to simplify sizing calculations */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Reset default margins on headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Reset font styles for better consistency */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Set a default background color */
+body {
+  background-color: #ffffff;
+}
+
+/* Add styles to normalize links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set default styling for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  border: 1px solid red;
+}
+
+/* Add more customizations as needed */
+
+/* Add your own styles below this line */
