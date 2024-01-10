@@ -44,12 +44,12 @@ const OpenAIChatComponent = () => {
           textShadow:
             "red -2px -2px 2px, yellow -5px -5px 5px, green -9px -9px 9px, blue -14px -14px 14px",
           color: "white",
-          backgroundColor: "black",
+          // backgroundColor: "black",
           cursor: "pointer",
           width: "fit-content",
           borderRadius: "1em",
           padding: ".7em .6em .6em 1em",
-          boxShadow: "0px 0px 8px purple",
+          // boxShadow: "0px 0px 8px purple",
         }}
         onClick={() => {
           const newLink = "https://github.com/swinnik/problem-solver";
